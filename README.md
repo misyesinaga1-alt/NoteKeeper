@@ -1,28 +1,28 @@
 # 🌸 My Daily Planner
 
-My Daily Planner adalah aplikasi pencatat kegiatan harian berbasis **React Native** menggunakan **Expo** dan **AsyncStorage**. Aplikasi ini memungkinkan pengguna untuk menambahkan, mencari, menandai status selesai, menghapus catatan, serta menyimpan data secara lokal sehingga tetap tersedia meskipun aplikasi ditutup.
+My Daily Planner adalah aplikasi pencatat kegiatan harian berbasis **React Native** yang dibangun menggunakan **Expo** dan **AsyncStorage**. Aplikasi ini memungkinkan pengguna untuk mencatat aktivitas harian, mencari catatan, menandai tugas yang telah selesai, menghapus catatan, serta menyimpan data secara lokal sehingga tetap tersedia meskipun aplikasi ditutup dan dibuka kembali.
 
 ---
 
-## ✨ Fitur
+## ✨ Fitur Aplikasi
 
-### ✅ Level 1 (Core)
+### ✅ Level 1 (Fitur Wajib)
 
-- Menambah catatan baru (Create)
-- Menampilkan daftar catatan (Read)
-- Menghapus catatan (Delete)
-- Validasi input kosong
-- Penyimpanan data menggunakan AsyncStorage
-- Data tetap tersimpan setelah aplikasi ditutup (Persistence)
-- Menampilkan daftar menggunakan FlatList
-- Empty State ketika belum ada catatan
+- ➕ Menambah catatan baru (Create)
+- 📖 Menampilkan daftar catatan (Read)
+- 🗑️ Menghapus catatan (Delete)
+- ✅ Validasi input agar tidak kosong
+- 💾 Penyimpanan data menggunakan AsyncStorage
+- 🔄 Data tetap tersimpan setelah aplikasi ditutup (Persistence)
+- 📋 Menampilkan daftar menggunakan FlatList
+- 📭 Empty State saat belum ada catatan
 
-### ✅ Level 2
+### ✅ Level 2 (Pengembangan)
 
 - 🌙 Dark Mode (tersimpan menggunakan AsyncStorage)
-- 🔍 Search catatan
+- 🔍 Search catatan berdasarkan teks
 - ✅ Toggle status selesai
-- 🗑️ Konfirmasi sebelum menghapus catatan
+- ⚠️ Konfirmasi sebelum menghapus catatan
 
 ### ⭐ Bonus
 
@@ -34,52 +34,17 @@ My Daily Planner adalah aplikasi pencatat kegiatan harian berbasis **React Nativ
 
 - React Native
 - Expo SDK 54
-- JavaScript
+- JavaScript (ES6)
 - AsyncStorage
+- Expo Go
 
 ---
 
-## 🚀 Cara Menjalankan
-
-1. Clone repository
-
-```bash
-git clone https://github.com/misyesinaga1-alt/NoteKeeper.git
-```
-
-2. Masuk ke folder project
-
-```bash
-cd NoteKeeper
-```
-
-3. Install dependency
-
-```bash
-npm install
-```
-
-atau
-
-```bash
-npx expo install
-```
-
-4. Jalankan aplikasi
-
-```bash
-npx expo start
-```
-
-5. Scan QR Code menggunakan aplikasi **Expo Go**.
-
----
-
-## 📸 Screenshot
+## 📱 Tampilan Aplikasi
 
 ### 1. Halaman Utama
 
-Menampilkan daftar catatan, kolom input, dan kolom pencarian.
+Menampilkan daftar catatan, kolom input, tombol tambah, dan kolom pencarian.
 
 ![Halaman Utama](page1.jpeg)
 
@@ -87,7 +52,7 @@ Menampilkan daftar catatan, kolom input, dan kolom pencarian.
 
 ### 2. Dark Mode
 
-Menampilkan tampilan aplikasi saat Dark Mode aktif.
+Menampilkan tampilan aplikasi ketika Dark Mode diaktifkan.
 
 ![Dark Mode](page2.jpeg)
 
@@ -95,9 +60,9 @@ Menampilkan tampilan aplikasi saat Dark Mode aktif.
 
 ### 3. Toggle Status Selesai
 
-Menampilkan catatan yang telah ditandai selesai.
+Menampilkan catatan yang telah ditandai selesai dengan tanda centang dan teks tercoret.
 
-![Toggle](page3.jpeg)
+![Toggle Complete](page3.jpeg)
 
 ---
 
@@ -111,19 +76,66 @@ Data tetap tersimpan setelah aplikasi ditutup dan dibuka kembali.
 
 ## 💾 Penyimpanan Data
 
-Aplikasi menggunakan **AsyncStorage** untuk menyimpan:
+Aplikasi menggunakan **AsyncStorage** untuk menyimpan data secara lokal.
+
+Data yang disimpan meliputi:
 
 - Daftar catatan
-- Pengaturan Dark Mode
+- Status Dark Mode
 
-Data akan tetap tersedia meskipun aplikasi ditutup dan dibuka kembali.
+Seluruh data akan tetap tersedia meskipun aplikasi ditutup dan dibuka kembali.
+
+---
+
+## 🚀 Cara Menjalankan Project
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/misyesinaga1-alt/NoteKeeper.git
+```
+
+### 2. Masuk ke Folder Project
+
+```bash
+cd NoteKeeper
+```
+
+### 3. Install Dependency
+
+```bash
+npm install
+```
+
+atau
+
+```bash
+npx expo install
+```
+
+### 4. Jalankan Aplikasi
+
+```bash
+npx expo start
+```
+
+Kemudian scan QR Code menggunakan aplikasi **Expo Go**.
 
 ---
 
 ## 📱 Expo Snack
 
-(https://snack.expo.dev/@misyesinaga/notekeeper)
-```
+Aplikasi juga dapat dicoba secara langsung melalui Expo Snack:
+
+**https://snack.expo.dev/@misyesinaga/notekeeper**
+
+---
+
+## 📂 Repository GitHub
+
+Repository proyek dapat diakses melalui:
+
+**https://github.com/misyesinaga1-alt/NoteKeeper**
 
 ---
 
@@ -138,4 +150,4 @@ https://github.com/misyesinaga1-alt
 
 ## 📄 Lisensi
 
-Project ini dibuat untuk memenuhi tugas **Misi 12 - Build a Persistent App** pada mata kuliah React Native.
+Project ini dibuat untuk memenuhi tugas **Misi 12 – Build a Persistent App** pada mata kuliah **React Native**.
