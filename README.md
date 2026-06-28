@@ -122,10 +122,7 @@ Data akan tetap tersedia meskipun aplikasi ditutup dan dibuka kembali.
 
 ## 📱 Expo Snack
 
-Tambahkan link Expo Snack setelah dibuat.
-
-```
-https://snack.expo.dev/
+(https://snack.expo.dev/@misyesinaga/notekeeper)
 ```
 
 ---
